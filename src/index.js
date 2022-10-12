@@ -93,6 +93,7 @@ function showLoadMoreBtn() {
   refs.loadMoreBtn.classList.remove('is-hidden');
 }
 
+
 function markup(data) {
   const markup = data.hits.map(makeMarkupEl).join('');
   refs.galleryEl.insertAdjacentHTML('beforeend', markup);
